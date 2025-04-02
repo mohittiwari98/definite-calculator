@@ -1,0 +1,119 @@
+/* Reset default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body setup */
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(45deg, #1e3c72, #2a5298);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  /* Calculator container */
+  .calculator-container {
+    width: 100%;
+    max-width: 600px;  /* Increased max width for larger form */
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .calculator {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Form Layout */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;  /* Increased gap between form fields */
+  }
+  
+  /* Input Fields */
+  input[type="text"],
+  input[type="number"] {
+    padding: 15px;  /* Increased padding for more space */
+    font-size: 1.1rem;  /* Increased font size */
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    transition: background-color 0.3s ease;
+    width: 100%;  /* Ensures input takes full width of container */
+  }
+  
+  input[type="text"]:focus,
+  input[type="number"]:focus {
+    outline: none;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  /* Neon Button Design */
+  button {
+    padding: 16px;
+    font-size: 1.3rem;  /* Slightly larger button text */
+    color: #fff;
+    background-color: #00ffff;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #00ffff, 0 0 30px #00ffff;
+    transition: all 0.4s ease;
+  }
+  
+  button:hover {
+    background-color: #33ccff;
+    box-shadow: 0 0 20px #33ccff, 0 0 40px #33ccff;
+  }
+  
+  /* Result Box with Glassmorphism */
+  #result {
+    margin-top: 30px;  /* Increased margin for more spacing */
+    display: none;
+    padding: 25px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+  }
+  
+  #resultValue {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #ffeb3b;
+  }
+  
+  @media (max-width: 600px) {
+    .calculator-container {
+      padding: 20px;
+      width: 100%;
+    }
+  
+    .calculator {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  }
+  
