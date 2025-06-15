@@ -4,7 +4,6 @@ document.getElementById('integralForm').addEventListener('submit', function(even
     const func = document.getElementById('function').value.trim();
     const a = parseFloat(document.getElementById('lowerBound').value);
     const b = parseFloat(document.getElementById('upperBound').value);
-  
     
     if (isNaN(a) || isNaN(b) || func === "") {
       alert("Please fill in all fields correctly.");
