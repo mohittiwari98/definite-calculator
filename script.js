@@ -1,4 +1,4 @@
-//script fil
+//script file
 document.getElementById('integralForm').addEventListener('submit', function(event) {
     event.preventDefault();  
     
