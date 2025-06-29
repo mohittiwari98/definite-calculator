@@ -2,7 +2,7 @@
 document.getElementById('integralForm').addEventListener('submit', function(event) {
     event.preventDefault();  
 
-    //get value of both a a
+    //get value of both a an
     const func = document.getElementById('function').value.trim();
     const a = parseFloat(document.getElementById('lowerBound').value);
     const b = parseFloat(document.getElementById('upperBound').value);
