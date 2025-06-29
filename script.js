@@ -1,4 +1,4 @@
-//sc
+//scr
 document.getElementById('integralForm').addEventListener('submit', function(event) {
     event.preventDefault();  
     
