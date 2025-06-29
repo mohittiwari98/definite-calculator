@@ -13,7 +13,7 @@ document.getElementById('integralForm').addEventListener('submit', function(even
       return;
     }
   
-   //get result of in
+   //get result of int
     const result = calculateDefiniteIntegral(func, a, b);
   
 
