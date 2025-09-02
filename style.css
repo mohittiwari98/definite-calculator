@@ -20,7 +20,7 @@
   .calculator-container {
     width: 100%;
     max-width: 600px;  /* Increased max width for larger form */
-    padding: 40px;
+    padding: 45px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
@@ -116,4 +116,5 @@
       font-size: 2rem;
     }
   }
+
   
