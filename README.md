@@ -1,4 +1,4 @@
-Introduction: simple and interactive web-based calculator to compute definite integrals using HTML, CSS, and JavaScript. This tool allows users to input a mathematical function, set the integration limits, and calculate the definite integral over the given range.
+Introduction:- simple and interactive web-based calculator to compute definite integrals using HTML, CSS, and JavaScript. This tool allows users to input a mathematical function, set the integration limits, and calculate the definite integral over the given range.
 <div align="center">
   <img src="Screenshot_2025-06-14-16-52-17-89_439a3fec0400f8974d35eed09a31f914.jpg" alt="DevOpsShack Banner">
 </div>
